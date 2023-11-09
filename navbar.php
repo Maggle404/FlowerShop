@@ -8,15 +8,11 @@
 </head>
 <body>
 <div class="navbar">
-    <li><a href="index.php"><img src="flowerlogo.jpg"></a></li> 
-    <div class="button-container">
-      <ul class="navleft">
-          <li><a href="products.php">Catalogue</a></li>
-       </ul>
-      <ul class="navright">
-         <li><a href="login.php">Login</a></li>
-      </ul>
-    </div>
+    <ul>
+        <li><a href="index.php"><img src="library/flowerlogo.png"></a></li> 
+        <li><a href="products.php">Catalogue</a></li>
+        <li><a href="login.php">Login</a></li>
+    </ul>
 </div>
 </body>
 </html>

@@ -2,7 +2,7 @@
     background-color: pink;
     padding: 10px;
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
     list-style-type: none;
     cursor: pointer;
@@ -11,25 +11,15 @@
     text-decoration: none;
     list-style-type: none;
     color: inherit;
+    background-color: lightcoral; 
+    padding: 10px; 
+    border-radius: 10px; 
 }
 .navbar a img {
     width: 10em; 
     height: auto; 
     display: block; 
 }
-.navleft{
-    justify-content: flex-start;
-    
-}
-.navright{
-    justify-content: flex-end;
-}
-.button-container {
-    display: flex;
-    background-color: lightcoral; 
-    padding: 10px; 
-    border-radius: 10px; 
-    list-style-type: none;
-}
 
-/* code for the fucking catalogue now I guess */
+
+/* code for the damned catalogue now I guess */
