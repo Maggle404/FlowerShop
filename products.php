@@ -10,7 +10,8 @@
     <!-- TODO: 
     -JS vérification de connexion
     -display des items existants 
-    -formulaire création items (popup en JS?)
+    -formulaire création items (une autre popup en JS?)
+    
      -->
      <?php
         include "navbar.php";
