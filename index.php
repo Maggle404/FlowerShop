@@ -12,7 +12,7 @@
     ?>
     <h1>Devanture de magasin</h1>
     <div class="devanture">
-        <img src="shopfront.jpg">
+        <img src="library/shopfront.jpg">
     </div>
     <p>salut nous on vends des fleurs</p>
 </body>

@@ -7,14 +7,19 @@
     <title>Navbar</title>
 </head>
 <body>
+
 <div class="navbar">
     <ul>
-        <li><a href="index.php"><img src="library/flowerlogo.png"></a></li> 
+        <li><a href="index.php"><img src="library/flowerlogo.png"></a></li>
         <li><a href="products.php">Catalogue</a></li>
-        <li><a href="login.php">Login</a></li>
+        <li><a id="loginButton">Login</a></li>
     </ul>
 </div>
+<?php
+    include("login.php");
+?>
 </body>
+
 </html>
 
 
