@@ -1,27 +1,37 @@
-.navbar{
+/* Le css de la navbar la
+  je sais pas pourquoi il veut pas s'aligner horizontalement bordel flex-start veut pas marcher
+*/
+.navbar {
   background-color: pink;
   padding: 10px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  list-style-type: none;
-  cursor: pointer;
+  align-items: flex-start;
 }
-.navbar a{
+.navbar a {
   text-decoration: none;
-  list-style-type: none;
   color: inherit;
-  background-color: lightcoral; 
-  padding: 10px; 
-  border-radius: 10px; 
+  background-color: lightcoral;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
 }
-.navbar a img {
-  width: 10em; 
-  height: auto; 
-  display: block; 
+.navbar a:first-child {
+  margin-right: 0.5em; 
 }
-.popup {
+.navbar a:last-child {
+  margin-left: 0.5em; 
+}
+.navbar a:first-child img {
+  width: 10em;
+  height: auto;
+  display: block;
+}
 
+/* CSS pour la popup de connexion en JS */
+.popup {
   position: fixed;
   top: 0;
   left: 0;
@@ -29,17 +39,15 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
 }
-
 .popup-content {
 position: absolute;
 top: 50%;
 left: 50%;
-background-color: green;
+background-color: whitesmoke;
 padding: 20px;
 border-radius: 5px;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-
 .close {
   position: absolute;
   top: 10px;
