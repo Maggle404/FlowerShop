@@ -24,7 +24,7 @@
         $prenom = $_POST["prenom"];
         $nom = $_POST["nom"];
         $mail = $_POST["mail"];
-        $password = $_POST["password"];  
+        $password = password_hash($_POST["password"], PASSWORD_DEFAULT);    
 
         $query = "INSERT INTO users (username, prenom, nom, mail, password) VALUES ('$username', '$prenom', '$nom', '$mail', '$password')";
         
