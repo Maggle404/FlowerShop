@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+    <title>popup de connexion</title>
 </head>
 <body>
 
@@ -23,6 +23,8 @@
       </form>
       <p>Vous n'avez pas de compte? <a href="register.php">Créer-en un ici!</a></p>
      </div>
+
+  <!-- bon maintenant il faut implémenter la session -->
 </div>
 <script defer src="login.js"></script>
 </body>
